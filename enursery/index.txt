@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>E-Nursery</title>
+    <link rel="stylesheet" href="style.css"> <!-- ✅ Link to CSS -->
+</head>
+<body>
+
+<nav>
+    <a href="index.php">Home</a>
+    <a href="cart.php">Cart</a>
+    <a href="login.php">Login</a>
+    <a href="register.php">Register</a>
+</nav>
+
+<div class="hero">
+     <p> HAPPINESS IS <br>
+      <span style = "color: seagreen;">...Buying Plants</span>
+      </p> 
+</div>
+
+<h2>Our Beautiful Plants</h2>
+
+<div class="product-container">
+    <?php include 'products.php'; ?>
+</div>
+
+</body>
+</html>
